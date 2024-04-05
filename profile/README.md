@@ -1,7 +1,7 @@
 <img src="https://github.com/propellapp/.github/assets/101514263/83655819-26af-487f-8e13-98130b746dd6" width=150>
 
 
-# Propell
+# propell
 
 🚀 **Simplifying the landlord journey**
 
