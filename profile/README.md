@@ -1,5 +1,9 @@
-<img src="https://github.com/propellapp/.github/assets/101514263/83655819-26af-487f-8e13-98130b746dd6" width=150>
 
+![Propell LinkedIn Cover](https://github.com/propellapp/.github/assets/101514263/8a6fefd9-74e9-436c-95fa-d3ca33aae615)
+
+<!--
+<img src="https://github.com/propellapp/.github/assets/101514263/83655819-26af-487f-8e13-98130b746dd6" width=100>
+-->
 
 # propell
 
