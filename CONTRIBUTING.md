@@ -2,16 +2,6 @@
 
 Welcome to Propell! 🚀
 
-## Git Branches
-
-- Repositories should use the `main` branch as their primary branch.
-- This branch should be "protected" on GitHub and require PR reviews and status checks before merging.
-- Where necessary, a `dev` branch should be maintained concurrently to `main` (with a staging / test deployment).
-- Additions to the `dev` branch can either:
-    - Be first created as `feat` branches, that are then merged into `dev`.
-    - Be pushed directly to `dev`.
-- Once ready, changes from `dev` can be merged into `main` via a pull request (and subject to review).
-
 ## Commit Messages
 
 A commit:
@@ -43,5 +33,19 @@ The `<type>` should be included as a prefix, and is based on the Angular convent
 - `build:` - Changes that affect the build system or external dependencies
 
 The same commit `<type>` prefixes are also available as labels for issues, so commit types should match issue lables where appropriate.
+
+## Outside Collaboration
+
+The best workflow is to be determined per usecase, but generally speaking outside collaborators will be asked to fork the repository they are working on and then submit pull requests to `dev` branch, that can be reviewed prior to merging.
+
+## Git Branches
+
+- Repositories should use the `main` branch as their primary branch.
+- This branch should be "protected" on GitHub and require PR reviews and status checks before merging.
+- Where necessary, a `dev` branch should be maintained concurrently to `main` (with a staging / test deployment).
+- Additions to the `dev` branch can either:
+    - Be first created as `feat` branches, that are then merged into `dev`.
+    - Be pushed directly to `dev`.
+- Once ready, changes from `dev` can be merged into `main` via a pull request (and subject to review).
 
 
